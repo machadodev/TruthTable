@@ -2,11 +2,11 @@
 
 [![forthebadge made-with-python](https://forthebadge.com/images/badges/works-on-my-machine.svg)](#)
 
-*Aline Lima*
-*Hiaggo Bezerra*
-*Leonardo Machado*
-*Computer Science Graduation*
-*Federal Fluminense University*
+*Aline Lima*<br>
+*Hiaggo Bezerra*<br>
+*Leonardo Machado*<br>
+*Computer Science Graduation*<br>
+*Federal Fluminense University*<br>
 *Niteroi, 2020*
 
 This project was developed for the discipline of Programming Language from **Federal Fluminense University - UFF**.
