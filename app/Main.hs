@@ -15,7 +15,7 @@ import Table (table)
 main :: IO ()
 main = do
   -- Input
-  let formula = "CKabAaNc"
+  let formula = "Ead"
 
   -- Parse string formula to tree
   let tree = parse formula
