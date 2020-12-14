@@ -23,7 +23,7 @@ If you want to evaluate **(a^b)->(a ν ¬c)**, you'll have to write it as polish
 
 [If you want to know how to write a sentential logic formula using Polish Notation, click here!](https://en.wikipedia.org/wiki/Polish_notation)
 
-Example of input: **CKabAaNc**
+Example of input: **CKabAaNc**<br>
 Output:
 <p align="center">
   <img src="/doc/running.png" />
