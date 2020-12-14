@@ -15,13 +15,13 @@ This project was developed for the discipline of Programming Language from **Fed
   * **Visual Code** - MS text editor
   * **Stack** - build tool
   * **Polish Notation**
-  * **Propositional Logic**
+  * **Sentential Logic**
 ## App
-It generates a truth table with subformulas given a prefixed formula in polish notation.
+It generates a truth table with subformulas given a formula in polish notation.
 
-If you want to evaluate **(a^b)->(a ν ¬c)**, you'll have to parse it to polish notation, which will lead to a formula like this: **CKabAaNc**
+If you want to evaluate **(a^b)->(a ν ¬c)**, you'll have to write it as polish notation, which will lead to a formula like this: **CKabAaNc**
 
-[If you want to know how to convert from First Order Logic to Polish Notation, click here!](https://en.wikipedia.org/wiki/Polish_notation)
+[If you want to know how to write a sentential logic formula using Polish Notation, click here!](https://en.wikipedia.org/wiki/Polish_notation)
 
 Example of input: **CKabAaNc**
 Output:
@@ -29,7 +29,7 @@ Output:
   <img src="/doc/running.png" />
 </p>
 
-It will give you the symbols, subformulas and if it's tautology, satisfiable or contradiction.
+It will give you the symbols, subformulas and whether it's tautology, satisfiable or contradiction.
 
 ### Installation
 
@@ -67,7 +67,7 @@ $ stack build && stack exec TruthTableGenerator-exe
 ```
 
 ### Test Cases
-#### Change "let formula" from app/main.hs with one of the values below:
+#### Change "let formula" in app/Main.hs with one of these values below:
 
 * **CNaKbc**
 * **KNAbcKbc**
@@ -88,4 +88,4 @@ Credits
 [@Alines009](https://github.com/Alines009)
 
 
-**Free Software, Hell Yeah!**
+**Balburdia!**
