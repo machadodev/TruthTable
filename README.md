@@ -67,11 +67,18 @@ $ stack build && stack exec TruthTableGenerator-exe
 ```
 
 ### Test Cases
+#### Change "let formula" from app/main.hs with one of the values below:
 
-* **CNaKbc** (~a -> (b & c))
-* **KNAbcKbc** ¬(b ν c) Λ (b Λ c)
-* **CKabAaNc** (a Λ b)-> (a ν ¬c)
-* **Ead** (a <-> d)
+* **CNaKbc**
+* **KNAbcKbc**
+* **CKabAaNc**
+* **Ead**
+
+#### OBS
+* **CNaKbc** is equivalent to (~a -> (b & c))
+* **KNAbcKbc** is equivalent to ¬(b ν c) Λ (b Λ c)
+* **CKabAaNc** is equivalent to (a Λ b)-> (a ν ¬c)
+* **Ead** is equivalent to (a <-> d)
 
 Credits
 ----
