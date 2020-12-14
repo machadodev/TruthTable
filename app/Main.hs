@@ -16,11 +16,10 @@ main :: IO ()
 main = do
   -- Input
   let formula = "CKabAaNc"
+  putStrLn ("Formula: " ++ formula)
 
   -- Parse string formula to tree
   let tree = parse formula
-  putStrLn ("Formula: " ++ formula)
-
   -- Retrieve all occurrences of non repeated symbols
   let sbs = nub $ symbols (head tree)
   -- Retrieve all occurrences of non repeated operators
